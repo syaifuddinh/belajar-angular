@@ -1,0 +1,29 @@
+li {
+	
+	
+	list-style: none;
+	margin-bottom:2mm;
+	width:40mm;
+	display: flex;
+}
+
+li .badge {
+	background: blue;
+	color: white;
+	display: inline-block;
+	padding:2mm 3mm;
+}
+
+.hero-name {
+	padding:2mm 3mm;
+	background: black;
+}
+
+.selectedHero .badge {
+	background: orange;
+}
+
+.selectedHero .hero-name {
+	background: yellow;
+}
+
